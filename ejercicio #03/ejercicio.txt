@@ -1,0 +1,34 @@
+/*
+ * EJERCICIO:
+ * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto
+ *   en tu lenguaje.
+ * - Utiliza operaciones de inserción, borrado, actualización y ordenación.
+ *
+ * DIFICULTAD EXTRA (opcional):
+ * Crea una agenda de contactos por terminal.
+ * - Debes implementar funcionalidades de búsqueda, inserción, actualización
+ *   y eliminación de contactos.
+ * - Cada contacto debe tener un nombre y un número de teléfono.
+ * - El programa solicita en primer lugar cuál es la operación que se quiere realizar,
+ *   y a continuación los datos necesarios para llevarla a cabo.
+ * - El programa no puede dejar introducir números de teléfono no numéricos y con más
+ *   de 11 dígitos (o el número de dígitos que quieras).
+ * - También se debe proponer una operación de finalización del programa.
+ */
+
+/*algoritmo
+
+1. crear el menu dentro de un for of para que se muestre constantemente
+
+2. crear una funcion con un array que contenga los parametros para el nombre y el telefono
+
+3. hay que crear diferentes funciones que tengan como parametro la funcion inicial para cada funcionalidad 
+    -para la funcion de busqueda se puede con el metodo found y que busque dentro del array
+    -para inserción usar append
+    -para eliminacion se debera elejir entre los indices del array para así con el metodo pop eliminarlo
+
+4. utilizar cada uno de esas funciones dentro de un switch o un if anidado
+
+5. la ultima opcion debe ser terminar el programa
+
+*/
